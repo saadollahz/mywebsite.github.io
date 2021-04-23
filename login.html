@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>login page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    body {
+        background-image: url("img/home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
+
+<body>
+    <form action="bib.html" method="POST">
+        <input type="text" id="user" name="user" placeholder="username" onkeyup="user_b(event)" onkeydown="user_keydown(event)">
+        <input type="password" id="pass" name="pass" placeholder="password" onfocus="pass_f()" onmouseover="pass_mousover(this)" onmouseout="pass_mousout(this)">
+        <!-- <span id="passcounter"></span> -->
+        <br>
+        <button id="log">login</button>
+    </form>
+
+</body>
+
+</html>
